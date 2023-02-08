@@ -4,24 +4,34 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>David Jorge</title>
+   <script src="index.js"></script>
+   <title id="title">David Jorge - Informatica</title>
 </head>
 <body>
    <div id="wrapper">
       <header id="tabs">
          <nav>
             <ul>
-               <li><a href="#home">Inicio</a></li>
-               <li><a href="#Historia-de-la-web">Historia de la web</a></li>
-               <li><a href="#Historia-del-internet">Historia del internet</a></li>
-               <li><a href="#historia-de-la-programacion">Historia de la programacion</a></li>
-               <li><a href="#historia-de-la-computacion">Historia de la computacion</a></li>
+               <li><a class="tab" href="#home" onclick="Opentab(event, '#home')">Inicio</a></li>
+               <li><a class="tab" href="#contact" onclick="Opentab(event, '#contact')">Contactar</a></li>
+               <li><a class="tab" href="#Historia-de-la-web" onclick="(event, '#Historia-de-la-web')">Historia de la web</a></li>
+               <li><a class="tab" href="#Historia-del-internet" onclick="Opentab(event, '#Historia-del-internet')">Historia del internet</a></li>
+               <li><a class="tab" href="#historia-de-la-programacion" onclick="Opentab(event, '#Historia-de-la-programacion')">Historia de la programacion</a></li>
+               <li><a class="tab" href="#historia-de-la-computacion" onclick="Opentab(event, '#historia-de-la-computacion')">Historia de la computacion</a></li>
             </ul>
          </nav>
       </header>
-      <div id="home">
+      <div id="home" class="_tab">
          <h1>Inicio</h1>
-         <p></p>
+         <p>Bienvenido, Este trabajo esta hecho para la clase de informatica del colegio La Salle, en general, trata sobre la historia del software, hardware y sobre el internet y la web.</p>
+         <p>El trabajo esta hecho por Carlos David.</p>
+      </div>
+      <div id="#contact" class="_tab">
+         <p>Contactar a David:</p>
+         <ul>
+            <li><a href="https://discord.com/channels/@me">Discord: ShibaDev#5421</a></li>
+            <li><a href="">Telegram</a></li>
+         </ul>
       </div>
    </div>
 </body>
