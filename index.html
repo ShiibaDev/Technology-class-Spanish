@@ -1,47 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <meta name="author" content="Carlos David">
-   <link rel="stylesheet" href="./dist/css/output.css">
-   <title id="title">Informatica · La historia</title>
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+   <title>Software History · Carlos David</title>
 </head>
-<body>
-   <div class="container">
-      <header class="d-flex justify-content-center py-3">
-         <ul class="nav nav-pills">
-            <li class="nav-item active"><a href="#inicio" data-toggle="tab" class="nav-link" aria-current="page">Inicio</a></li>
-            <li class="nav-item"><a href="#web/history" data-toggle="tab" class="nav-link">Web/History</a></li>
-            <li class="nav-item"><a href="#internet/History" data-toggle="tab" class="nav-link">Internet/History</a></li>
-            <li class="nav-item"><a href="#contact" data-toggle="tab" class="nav-link">Contact</a></li>
+
+<body class="">
+   <nav class="navbar navbar-expand-sm bg-light link-dark navbar-light">
+      <div class="container-fluid">
+         <ul class="navbar-nav" role="tablist">
+            <li class="nav-item">
+               <a class="nav-link active" data-bs-toggle="tab" href="#Inicio">Inicio</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-bs-toggle="tab" href="#about-myself">Acerca de mi</a>
+            </li>
+            <li class="nav-item">
+               <a class="nav-link" data-bs-toggle="tab" href="#">Link</a>
+            </li>
          </ul>
-      </header>
-   </div>
-      <!--Blank HTML line-->
-      <!--Body-->
-   <div class="tab-content">
-      <div class="tab-pane in active fade" id="inicio">
-         <h2>Bienvenido a la historia del software en general.</h2>
       </div>
-      <div class="tab-pane fade" id="web/history"></div>
-      <div class="tab-pane fade" id="Text"></div>
-      <div class="tab-pane fade" id="contact"></div>
+   </nav>
+
+   <div class="tab-conent">
+      <div id="Inicio" class="tab-pane fade in active">
+         <div class="container-fluid p-5 bg-dark text-white text-center">
+            <h1>La historia del software</h1>
+            <p>Resize this responsive page to see the effect!</p>
+         </div>
+         <div class="container mt-5">
+            <div class="row">
+               <div class="col-sm-4">
+                  <h3>Autor</h3>
+                  <p>Hola, soy David, AKA ShibaDev</p>
+                  <p>Me dedico al desarrollo de aplicaciones webs y paginas webs.</p>
+                  <p>He estudiado varios lenguajes y frameworks, pero los principales que utilizo son</p>
+                  <p>HMTL, JavaScript, CSS y para el lado de servidor, node.js.</p>
+                  <p>He estado estudiando frameworks y librerias para mejorar la calidad de mis trabajos, como tailwindcss, bootstrap 5 o react.js</p>
+               </div>
+               <div class="col-sm-4">
+                  <h3>De que trata este articulo</h3>
+                  <p>Este articulo habla sobre la historia del <strong>internet, de la web, de la programación y de la computacion</strong></p>
+                  <p>Empezaremos con la historia del internet y de la web, para finalizar en la programación y la computacion.</p>
+               </div>
+               <div class="col-sm-4">
+                  <h3>Introduccion rapida</h3>
+                  <p></p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div id="about-myself" class="tab-pane fade">
+         <h3>Acerca de mi</h3>
+      </div>
+      <div id="internet-history" class="tab-pane fade"></div>
    </div>
-      <!--Blank HTML line-->
-      <!--Footer-->
-   <div class="container">
-      <footer class="py-3 my-4">
-         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-            <li class="nav-item"><a href="#inicio" class="nav-link px-2 text-muted">Inicio</a></li>
-            <li class="nav-item"><a href="#web/history" class="nav-link px-2 text-muted">Web/History</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Internet/History</a></li>
-            <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-            <li class="nav-item"><a href="#contact" class="nav-link px-2 text-muted">Contact</a></li>
-         </ul>
-         <p class="text-center text-muted">&copy; 2023 C. David Jorge T; La Salle Informatica</p>
-      </footer>
-   </div
 </body>
+
 </html>
