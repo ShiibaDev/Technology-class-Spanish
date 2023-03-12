@@ -1,5 +1,11 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /node_modules/
+=======
+package.json
+pnpm-lock.yaml
+node_modules/
+>>>>>>> parent of e5d30e8 (Rebuild on process)
 =======
 package.json
 pnpm-lock.yaml
